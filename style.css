@@ -1,0 +1,154 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-block; 
+	font-family: Helvetica;
+
+}
+
+header {
+	background: Indigo;
+	color: #eaeaea;
+	padding: 25px;
+}
+.logo:hover {
+	color: orange;
+}
+
+.logo {
+	transition: all .5s ease 0s;
+	cursor: pointer;
+	margin-left: 10px;
+}	
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.intro1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}	
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	padding: 20px;
+	font-family: Lucida Bright;
+	cursor: pointer;
+	transition: all .5s ease 0s;
+	cursor: pointer;
+	margin-left: 10px;
+}	
+
+.title:hover {
+	color: orange;
+}
+
+.img-foto {
+	width: 80%;
+	max-width: 200px;
+	height: auto;
+	padding: 22px;
+	cursor: pointer;
+}	
+
+.parallax {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-block;
+	padding-left: 20px;
+	cursor: pointer;
+}	
+
+.intro {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 25px;
+	font-family: Lucida Bright;
+}	
+
+table {
+	margin-right: auto;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}	
+
+th, td {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 40px;
+	cursor: pointer;
+	
+}
+ 
+td {
+	background-color: E8E8E8;
+	font-family: Lucida Bright;
+}	
+
+th {
+	font-family: Lucida Bright;
+}	
+
+p {
+	font-size: 30px;
+	font-family: Helvetica;
+	padding-top: 25px;
+}
+
+.xixi {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50;
+	font-weight: bold;
+	cursor: pointer;
+}	
+
+.float {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 25px;
+	font-family: Lucida Bright;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-block;
+	padding-left: 20px;
+	cursor: pointer;
+	
+}	
+
+ul {
+	padding-bottom: 20px;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-block;
+	padding-left: 20px;
+	cursor: pointer;
+	font-family: Lucida Bright;
+	cursor: pointer;
+}	
+
+a {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-block;
+	padding-left: 20px;
+	cursor: pointer;
+	font-family: Lucida Bright;
+	font-size: 15px;
+}	
